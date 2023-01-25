@@ -65,10 +65,13 @@ li{
     bottom: 1.52rem;
     padding: 10px;
 }
-.middle-container{
-    background-color: #CBF1F5;
+.pfp{
+    border-radius: 100%;
+    width: 12%;
+    margin-top: 175px;
+    position: relative;
+    border: 2px solid #CBF1F5;
 }
-
 
 a{
     color:#11999E;
@@ -76,7 +79,7 @@ a{
 }
 
 .first-head{
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -85,20 +88,16 @@ hr{
     border: 5px;
     border-color: rgba(178, 235, 246, 0.435);
     border-style: dotted none none;
-    margin: 70px auto 70px auto;
+    margin: 100px auto 100px auto;
 }
-.last{
-    width: 5%;
-    border: 5px;
-    border-color: rgba(178, 235, 246, 0.435);
-    border-style: dotted none none;
-    margin: 192px auto 70px auto;
-}
+
 .skills{
-    display: inline;
+    
+    padding-bottom: 87px;
 }
 .skill-head{
     margin: 100px;
+    padding-top: 20px;
 }
 .Technical{
     width: 50%;
@@ -118,9 +117,9 @@ hr{
     margin-right: 30px;
 }
 .speak-img{
-    float: left;
+    float: right;
     width: 30%;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 .list{
     list-style: none;
